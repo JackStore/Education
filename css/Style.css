@@ -1,0 +1,489 @@
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-image: url(../photo/people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.navigation div a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation {
+    margin: 0 auto;
+    padding: 15px;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    padding-right: 185px;
+}
+
+.button {
+    background-color: transparent;
+    border-radius: 20px;
+    border: white solid 1px;
+    color: white !important;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+
+.button:hover {
+    background-color: ghostwhite;
+    color: black !important;
+}
+
+.header_button {
+    padding-top: 30px;
+}
+
+
+.header_form {
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 15px;
+    color: white;
+}
+
+.header_form div p {
+    font-size: 20px;
+}
+
+.header_form div h1 {
+    font-size: 60px;
+}
+
+.header_input {
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.text_border {
+    height: 40px;
+    box-shadow: none !important;
+    border-radius: 20px 0 0 20px;
+}
+
+.text_border2 {
+    border-radius: 0 20px 20px 0;
+    margin: 0 auto;
+    width: 80px;
+    height: 44px;
+    background-color: orange;
+    border-style: none;
+}
+
+.text_border2 i {
+    color: white;
+}
+
+.photo_collage {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+    padding: 40px;
+    align-items: center;
+}
+
+.border2 {
+    border-radius: 20px;
+}
+
+.information {
+    margin: 0 auto;
+    background-image: url(../photo/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.collum {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    padding-left: 500px;
+    padding-top: 50px;
+    height: 400px;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+}
+
+.collum div b {
+    color: white;
+    font-family: 'Roboto Slab' , serif;
+    font-size: 18px;
+}
+
+.fist_item {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 14px;
+}
+
+.icon_clipboard {
+    padding-right: 10px;
+    padding-top: 10px;
+    color: orange;
+}
+
+.second_item {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 14px;
+}
+
+.icon_gem {
+    padding-right: 10px;
+    padding-top: 15px;
+    color: orange;
+}
+
+.third_item {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 14px;
+}
+
+.icon_music {
+    padding-right: 15px;
+    padding-top: 15px;
+    color: orange;
+}
+
+.four_item {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 14px;
+}
+
+.icon_book {
+    padding-right: 10px;
+    padding-top: 15px;
+    color: orange;
+}
+
+.five_item {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 14px;
+}
+
+.icon_bell {
+    padding-right: 10px;
+    padding-top: 15px;
+    color: orange;
+}
+
+.six_item {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 14px;
+}
+
+.icon_globe {
+    padding-right: 10px;
+    padding-top: 15px;
+    color: orange;
+}
+
+.first_columm {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.second_columm {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.durachki_image {
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.section_title {
+    margin: 0 auto;
+    height: 700px;
+}
+
+.qualified_teachers {
+    margin: 0 auto;
+    background-color: #F9F9F6;
+    height: 600px;
+    font-family: 'Roboto Slab' , serif;
+}
+
+.teachers {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    text-align: center;
+}
+
+.title_teachers {
+    margin: 0 auto;
+    padding-left: 290px;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.score {
+    margin: 0 auto;
+    height: 150px;
+    background-color: violet;
+}
+
+.pricing {
+    margin: 0 auto;
+    height: 700px;
+}
+
+.feedback {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-image: url(../photo/alchemy.jpg);
+    height: 200px;
+}
+
+.all_price {
+    margin: 0 auto;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    padding-top: 30px;
+}
+
+.first_price {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 30%;
+    border: 1px solid #eee;
+}
+
+.first_price div i {
+    color: gray;
+    
+}
+
+.text_price {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+}
+
+.text_price li {
+    border-top: 1px solid #eee;
+    background-color: #c2be89;
+    padding: 20px 0 20px 0;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.premium {
+    text-align: center;
+    background-color: #c2be89;
+    font-size: 32px;
+    font-family: "Roboto Slab", serif;
+    text-transform: uppercase;
+}
+
+.price {
+    text-align: center;
+    align-items: baseline;
+    height: 90px;
+    padding-top: 50px;
+    padding-left: 70px;
+    font-size: 64px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: orange !important;
+    font-family: "Roboto Slab", serif !important;
+}
+
+.month {
+    padding: 45px 0 0 0;
+    margin: 0 auto;
+    font-size: 15px;
+    color: black !important;
+}
+
+.signup_button {
+    text-align: center;
+    background-color: #212331;
+    padding-top: 30px;
+    height: 45px;
+}
+
+.signup_button a {
+    text-decoration: none;
+    color: white;
+}
+
+.questions {
+    margin: 0 auto;
+    height: 550px;
+}
+
+.questions_bar {
+    margin: 0 auto;
+    background-color: orange;
+    text-align: center;
+    height: 100px;
+}
+
+.footer {
+    background-color: #212331;
+}
+
+.footer_section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    height: 450px;
+    padding-top: 80px;
+}
+
+.footer_section h3 {
+    color: white;
+}
+
+.footer_section div {
+    color: #777777;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer_section i {
+    color: orange;
+}
+
+.footer_section a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.first_section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.social_icon {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.second_section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    line-height: 1.5;
+}
+
+.second_section div p {
+    border-bottom: 1px dashed #000;
+}
+
+.thirt_section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.four_section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.four_section div p {
+    border-bottom: 1px dashed #000;
+}
+
+.container_footer {
+    background-color: #2B2D3B;
+}
+
+.first_sup {
+    width: 70%;
+    text-align: center;
+}
+
+.sup {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 10px;
+}
